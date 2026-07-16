@@ -1,0 +1,73 @@
+{
+  "schemaVersion": "footballproofai-research-reproducibility/1.0.0",
+  "checkedAt": "2026-07-16T06:28:44.000Z",
+  "producer": {
+    "repository": "YAN555999/proofxi-pipeline",
+    "workflow": "Football Proof AI benchmark reproducibility ledger",
+    "runId": "29476781066",
+    "runAttempt": 1,
+    "commitSha": "ed25819050ad3de323de10aa86e3ac5d25129259"
+  },
+  "checks": [
+    {
+      "benchmarkId": "football-1x2-scoring-benchmark",
+      "benchmarkVersion": "football-1x2-empirical-benchmark/1.0.0",
+      "manifestPath": "data/football-1x2-empirical-benchmark-1.0.0-manifest.json",
+      "manifestSha256": "801f8c6c23e30f945dcba38e4c256fd4e9f3652f7e2ea965e4788f0e7cf9014a",
+      "generatorPath": "scripts/generate-football-1x2-empirical-benchmark.mjs",
+      "generatorSha256": "7b7d728e4445d92fe90b40c866ae2344e444a5bfb1fdecb504db1f24c3ac07e4",
+      "sourceDigestSha256": "eb44dfa83ebc3e99bff305ddbb7ee0bfcd79ee51496c15953a8607e210a81389",
+      "artifactDigestSha256": "6385fa68c6f79504ac29c8ab604f2949d0a33d1b6b86bef77438687f57da4e59",
+      "reproduced": true,
+      "errorSha256": null
+    },
+    {
+      "benchmarkId": "football-1x2-margin-removal-benchmark",
+      "benchmarkVersion": "football-1x2-margin-removal-benchmark/1.0.0",
+      "manifestPath": "data/football-1x2-margin-removal-benchmark-1.0.0-manifest.json",
+      "manifestSha256": "033b8c5deb3b2141214631027d8445469a48dea8a4eb9e56d2536be85e47a1eb",
+      "generatorPath": "scripts/generate-football-1x2-margin-removal-benchmark.mjs",
+      "generatorSha256": "60968a40b62331f2bdc7987579d9520dd6863e3136de0714aec34dcfe5ccf986",
+      "sourceDigestSha256": "35b4059e73f7157ed8a8565dc89aa29218cd17c106a8e06d329d0e586b76297f",
+      "artifactDigestSha256": "91aea76c6521ea9d39635329299373e8c4678258913499fc2c962547582c39ab",
+      "reproduced": true,
+      "errorSha256": null
+    },
+    {
+      "benchmarkId": "football-1x2-probability-calibration-benchmark",
+      "benchmarkVersion": "football-1x2-probability-calibration-benchmark/1.0.0",
+      "manifestPath": "data/football-1x2-probability-calibration-benchmark-1.0.0-manifest.json",
+      "manifestSha256": "1a16037252ff5ccd2cecb405894a4605627770ea77030096f2bc5b4d17d392cc",
+      "generatorPath": "scripts/generate-football-1x2-probability-calibration-benchmark.mjs",
+      "generatorSha256": "7a995e72cccc438c4574877999863abebed399a3350bf00315cbee347875a0ca",
+      "sourceDigestSha256": "0bcf11b5792d2c6b4e251e96d2443dfbd5ebb867928e70abe42ffb6fee2e97c9",
+      "artifactDigestSha256": "fcd92a4df3c582c4019f2cae00adef275bb3b990f8cf5e35edf5007ba48f8617",
+      "reproduced": true,
+      "errorSha256": null
+    },
+    {
+      "benchmarkId": "football-poisson-scenario-grid",
+      "benchmarkVersion": "football-independent-poisson-scenario-grid/1.0.0",
+      "manifestPath": "data/football-poisson-scenario-grid-1.0.0-manifest.json",
+      "manifestSha256": "d020ead55eb34871780c2d440c9b45cd43f140b8e98ebd512e0e20a04e0999fa",
+      "generatorPath": "scripts/generate-football-poisson-scenario-grid.mjs",
+      "generatorSha256": "0f8240cd3c2bc693058683e04df36e6eb83dcf56853f719bd8da1072a6446b3f",
+      "sourceDigestSha256": "368fbc5a8ad8ae6d5249427d8ce38ce06d6b8d10aad1c6e872b0f1c965c47238",
+      "artifactDigestSha256": "5aafda0ee94e44b5d038b75cff335c91d6b24820f820650ac55aee260c12d4a1",
+      "reproduced": true,
+      "errorSha256": null
+    },
+    {
+      "benchmarkId": "poisson-vs-dixon-coles-football-benchmark",
+      "benchmarkVersion": "poisson-vs-dixon-coles-football-benchmark/1.0.0",
+      "manifestPath": "data/poisson-vs-dixon-coles-football-benchmark-1.0.0-manifest.json",
+      "manifestSha256": "79314f2517b6e940aa3edb770afe91485af90ec97be4f8df498bc8d8ddf02601",
+      "generatorPath": "scripts/generate-poisson-vs-dixon-coles-benchmark.mjs",
+      "generatorSha256": "320c647988c25908312beb7f411aa8d9231ed97de7e5f53ca964cbcafb862b75",
+      "sourceDigestSha256": "af2adb402e9ef6aa87668a9c92d0a85da5fc7b8adb5b03c58e9fbe4c8362dbe7",
+      "artifactDigestSha256": "d72c4a6d900a06afbbd7cfa980de308b31407b5251b14ce4ee43842f65255ced",
+      "reproduced": true,
+      "errorSha256": null
+    }
+  ]
+}
