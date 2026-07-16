@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this receipt dataset, cite the canonical Football Proof AI research page."
+title: "Football Proof AI benchmark reproducibility receipt ledger"
+type: dataset
+version: 1.0.0
+date-released: 2026-07-16
+authors:
+  - name: "Football Proof AI"
+url: "https://footballproofai.com/research/reproducibility-ledger"
+repository-code: "https://github.com/YAN555999/footballproofai-reproducibility-ledger"
+license: CC-BY-4.0
